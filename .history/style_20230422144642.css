@@ -85,14 +85,14 @@ a {
 }
 
 #hero h1:nth-child(1) span {
-    animation-delay: .5s;
+    animation-delay: 1s;
 }
 #hero h1:nth-child(2) span {
-    animation-delay: 1.5s;
+    animation-delay: 2s;
 }
 
 #hero h1:nth-child(3) span {
-    animation-delay: 2.5s;
+    animation-delay: 3s;
 }
 
 /* End Hero Section */
