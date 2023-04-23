@@ -387,11 +387,6 @@ margin-bottom: 50px;
     font-weight: 50;
 }
 
-#contact .contact-item:hover {
-    box-shadow: 0px 0px 5px 0 #0000002c;
-    transition: .3x ease box-shadow;
-}
-
 
 
 /* End Contact Section */
