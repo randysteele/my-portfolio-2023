@@ -122,9 +122,9 @@ a {
 
     }
 }
-@keyframes text_reveal_name{
+@keyframes text_reveal{
     100%{
         color: crimson;
         font-weight: 500px;
     }
-}
+    }
