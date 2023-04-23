@@ -328,18 +328,13 @@ margin-bottom: 50px;
     padding: 10px 20px;
     font-size: 2rem;
 }
-#about .col-left .about-img {
-    position: relative;
-}
 
-#about .col-left .about-img::after {
+#about .col-left .about-img img::after {
     content: "";
     position: absolute;
     left: -33px;
     top: 19px;
     height: 98%;
-    width: 98%;
-    border: 7px solid crimson;
 }
 
 
