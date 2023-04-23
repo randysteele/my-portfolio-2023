@@ -95,7 +95,7 @@ p {
     animation-delay: 3s;
 }
 
-.cta {
+#hero .cta {
   display: inline-block;
   padding: 10px 30px;
   color: white;  
@@ -108,7 +108,7 @@ p {
   transition: 0.3s ease;
   transition-property: background-color, color;
 }
-.cta:hover {
+#hero .cta:hover {
     color: white;
     background-color: crimson;
 }
@@ -295,41 +295,10 @@ margin-bottom: 50px;
 /* End Projects Section */
 
 /* About Section */
-#about .about {
+#about.about {
     flex-direction: column-reverse;
-    text-align: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 100px 20px;
-}
-#about .col-left{
-   width: 250px;
-   height: 360px; 
-}
 
-#about .col-right{
-    width: 100%;
 }
-
-#about .col-right h2{
-    font-size: 1.8rem;
-    font-weight: 500;
-    letter-spacing: .2rem;
-    margin-bottom: 10px;
-}
-
-#about .col-right p{
-    margin-bottom: 20px;
-}
-
-#about .col-right .cta{
-    color: black;
-    margin-bottom: 50px;
-    padding: 10px 20px;
-    font-size: 2rem;
-}
-
-
 
 
 /* End About Section */
