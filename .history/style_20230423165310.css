@@ -330,6 +330,7 @@ margin-bottom: 50px;
 }
 #about .col-left .about-img {
     position: relative;
+    border: 10px solid white
 }
 
 #about .col-left .about-img::after {
