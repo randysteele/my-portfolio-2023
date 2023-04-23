@@ -18,14 +18,6 @@ a {
     align-items: center;
     justify-content: center; 
 }
-
-img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-
 /* Hero Section */
 #hero {
     background-image: url(./img/me1.jpeg);
@@ -179,7 +171,6 @@ img{
     background-size: cover;
     margin: 10px 5%;
     position: relative;
-    z-index: 1;
 }
 
 #services .service-item::after {
@@ -189,31 +180,9 @@ img{
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    opacity: .8;
-    z-index: -1;
-}
+    background-color: black;
 
-#services .service-bottom .icon {
-  height: 80px;  
-  width: 80px;
-  margin-bottom: 20px;
 }
-
-#services .service-item h2 {
-    font-size: 2rem;
-    color: white;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-}
-
-#services .service-item p {
-    color: white;
-    text-align: left;
-    font-size: 1.4rem;
-    line-height: 1.9rem;
-}
-
 
 /* End Services Section */
 

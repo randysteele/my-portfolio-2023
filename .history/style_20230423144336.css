@@ -200,20 +200,11 @@ img{
   margin-bottom: 20px;
 }
 
-#services .service-item h2 {
-    font-size: 2rem;
-    color: white;
-    margin-bottom: 10px;
-    text-transform: uppercase;
+#services .service-bottom .icon img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
-
-#services .service-item p {
-    color: white;
-    text-align: left;
-    font-size: 1.4rem;
-    line-height: 1.9rem;
-}
-
 
 /* End Services Section */
 
