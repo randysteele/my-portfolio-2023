@@ -581,12 +581,4 @@ margin-bottom: 50px;
 #contact .contact-item .icon img{
     object-fit: contain;
 }
-#contact .contact-item .contact-info{
-    width: 100%;
-    text-align: left;
-    padding-left: 20px;
-}
-
 /* End Media Query For Tablet */
-
-/* Media Query for Desktop */
